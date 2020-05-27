@@ -25,7 +25,7 @@ function createPlanetHTML(planet) {
  return `
  <div class="card">
           <div>
-            <img src="https://github.com/DariuszKostrzewski/Template-Literals-JS/tree/master/img/${planet.name}.jpg" alt="${planet.name}">
+            <img src="img/${planet.name}.jpg" alt="${planet.name}">
           </div>
           <h2>${planet.name}</h2>
           <p>${planet.description}</p>
